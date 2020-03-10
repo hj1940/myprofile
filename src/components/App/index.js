@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './index.css'
+import Header from '../header'
 
 class App extends Component {
   componentDidMount() {
@@ -17,10 +18,10 @@ class App extends Component {
     return (
       <div className={"App"}>
         <div className="App-header" id="header">
-          Header
+          <Header/>
         </div>
         <div className="contents">
-
+          
         </div>
       </div>
     );
