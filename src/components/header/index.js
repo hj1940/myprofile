@@ -5,12 +5,12 @@ class Header extends Component {
   render() {
     return (
       <div className="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
+        <a href="#home" className="active">Home</a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
         <a href="javascript:void(0);" className="icon" onClick={this.myFunction.bind()}>
-          <i class="fa fa-bars"></i>
+          <i className="fa fa-bars"></i>
         </a>
       </div>
     );

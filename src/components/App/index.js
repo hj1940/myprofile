@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './index.css'
 import Header from '../header'
+import Column from '../column'
 import './index.scss';
 
 class App extends Component {
@@ -21,8 +22,11 @@ class App extends Component {
         <div className="App-header" id="header">
           <Header/>
         </div>
-        <div className="contents">
-
+        <div className="contents-main">
+          <h2>Blog Name</h2>
+        </div>
+        <div className="contents-row">
+          <Column/>
         </div>
       </div>
     );
