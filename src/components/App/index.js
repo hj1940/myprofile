@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './index.css'
 import Header from '../header'
+import './index.scss';
 
 class App extends Component {
   componentDidMount() {
@@ -21,7 +22,7 @@ class App extends Component {
           <Header/>
         </div>
         <div className="contents">
-          
+
         </div>
       </div>
     );
