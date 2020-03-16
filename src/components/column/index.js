@@ -10,7 +10,7 @@ class Column extends Component {
             <h2>노루페인트 CDP(Customer Data Platform) 구축</h2>
             <h5>기간 : 2019.12 ~ 2020.03</h5>
             <div className="fakeimg h200">Image</div>
-            <p>JAVA(전자정부프레임워크) + MySQL 이용한 사용자 데이터 분석 시스템 개발</p>
+            <p><strong>JAVA(전자정부프레임워크) + MySQL</strong> 이용한 사용자 데이터 분석 시스템 개발</p>
             <p>매출 분석 시스템 및 마케팅 대상으로 푸쉬 메세지에 대한 통계 분석 시스템</p>
             <p>마케팅 대상 추출하는 분석 기능 개발</p>
           </div>
@@ -18,27 +18,27 @@ class Column extends Component {
             <h2>웹 사이트 개발 및 유지보수</h2>
             <h5>기간 : 2019.10 ~ 2019.11</h5>
             <div className="fakeimg h200">Image</div>
-            <p>PHP + MySQL 이용한 국제과학영재교육센터 홈페이지 구축 및 유지보수</p>
+            <p><strong>PHP + MySQL</strong> 이용한 국제과학영재교육센터 홈페이지 구축 및 유지보수</p>
           </div>
           <div className="card">
             <h2>입학지원 웹 사이트 운영 및 유지보수</h2>
             <h5>기간 : 2019.06 ~ 2020.03</h5>
             <div className="fakeimg h200">Image</div>
-            <p>ASP(or PHP) + MSSQL(or MySQL) 이용한 영재교육원 입학 지원 시스템 개발</p>
+            <p><strong>ASP(or PHP) + MSSQL(or MySQL)</strong> 이용한 영재교육원 입학 지원 시스템 개발</p>
             <p>전형료 결제를 위한 이니시스 결제 모듈 연동</p>
           </div>
           <div className="card">
             <h2>오리온 제주용암수 ERP 구축</h2>
             <h5>기간 : 2018.05 ~ 2019.05</h5>
             <div className="fakeimg h200">Image</div>
-            <p>JAVA(Spring Framework) + PostgreSQL 이용한 ERP 통합관리시스템 개발</p>
+            <p><strong>JAVA(Spring Framework) + PostgreSQL</strong> 이용한 ERP 통합관리시스템 개발</p>
             <p>기업 분석 정보와 손익 자료를 분석하여 c3 기반인 차트 API 적용</p>
           </div>
           <div className="card">
             <h2>대학교 사이버강의 커뮤니티 어플리케이션 개발</h2>
             <h5>기간 : 2017.09 ~ 2017.11</h5>
             <div className="fakeimg h200">Image</div>
-            <p>Android + MySQL + SQLite 이용한 안드로이드 기반 어플리케이션 개발</p>
+            <p><strong>Android + MySQL + SQLite</strong> 이용한 안드로이드 기반 어플리케이션 개발</p>
             <p>Firebase를 이용한 실시간 채팅 기능 개발</p>
             <p>Calendar 라이브러리를 이용한 스케줄러 기능 개발</p>
           </div>
@@ -48,6 +48,7 @@ class Column extends Component {
             <h2>About Me</h2>
             <div className="fakeimg h100">Image</div>
             <div className="content-center">
+              <p><strong>김희진(金熙珍 KIM HUI JIN)</strong></p>
               <p><strong>Back-end Developer</strong></p>
               <p>1995.11.02</p>
               <p>부산광역시 / 서울특별시</p>
@@ -90,8 +91,8 @@ class Column extends Component {
 
           </div>
           <div className="card">
-            <h3>Follow Me</h3>
-            <p>Some text..</p>
+            <h3>Web Site</h3>
+            <p><i class="fa fa-github"></i> <a href="https://github.com/hj1940">https://github.com/hj1940</a></p>
           </div>
       </div>
     </div>

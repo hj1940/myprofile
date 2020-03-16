@@ -3,6 +3,7 @@ import './index.css'
 import Header from '../header'
 import Column from '../column'
 import './index.scss';
+import Typewriter from 'typewriter-effect';
 
 class App extends Component {
   componentDidMount() {
@@ -20,10 +21,23 @@ class App extends Component {
     return (
       <div className={"App"}>
         <div className="App-header" id="header">
-          
+
         </div>
-        <div className="contents-main">
-          <h2>Blog Name</h2>
+        <div id="typing" className="contents-main">
+        <Typewriter
+        onInit={(typewriter) => {
+          typewriter.typeString('Software engineer Kim Hui Jin is...')
+          .callFunction(() => {
+            console.log('String typed out!');
+          })
+          .pauseFor(2500)
+          .deleteAll()
+          .callFunction(() => {
+            console.log('All strings were deleted');
+          })
+          .start();
+        }}
+        />
         </div>
         <div>
           <Column/>
