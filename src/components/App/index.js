@@ -25,7 +25,7 @@ class App extends Component {
         <div className="contents-main">
           <h2>Blog Name</h2>
         </div>
-        <div className="contents-row">
+        <div>
           <Column/>
         </div>
       </div>
