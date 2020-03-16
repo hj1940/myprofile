@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './index.css'
 import Header from '../header'
 import Column from '../column'
-import './index.scss';
+
 import Typewriter from 'typewriter-effect';
 
 class App extends Component {
