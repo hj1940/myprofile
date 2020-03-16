@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <div className={"App"}>
         <div className="App-header" id="header">
-          <Header/>
+          
         </div>
         <div className="contents-main">
           <h2>Blog Name</h2>

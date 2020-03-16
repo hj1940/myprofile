@@ -42,3 +42,26 @@
 .h100 {
   height: 100px;
 }
+
+.content-center{
+  text-align: center;
+}
+
+.container-sk {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.java {width: 90%; background-color: #b3dcb5;}
+.sql {width: 90%; background-color: #819e82;}
+.js {width: 80%; background-color: #6a806b;}
+.php {width: 60%; background-color: #3e5d40;}
+.asp {width: 60%; background-color: #034807;}
+.ad {width: 50%; background-color: #002902;}
