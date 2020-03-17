@@ -21,23 +21,9 @@ class App extends Component {
     return (
       <div className={"App"}>
         <div className="App-header" id="header">
-
         </div>
-        <div id="typing" className="contents-main">
-        <Typewriter
-        onInit={(typewriter) => {
-          typewriter.typeString('Software engineer Kim Hui Jin is...')
-          .callFunction(() => {
-            console.log('String typed out!');
-          })
-          .pauseFor(2500)
-          .deleteAll()
-          .callFunction(() => {
-            console.log('All strings were deleted');
-          })
-          .start();
-        }}
-        />
+        <div className="contents-main">
+          <img src="header.jpg"/>
         </div>
         <div>
           <Column/>
