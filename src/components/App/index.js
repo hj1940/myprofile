@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './index.css'
 import Header from '../header'
 import Column from '../column'
+import Img from './header.jpg';
 
 import Typewriter from 'typewriter-effect';
 
@@ -23,7 +24,7 @@ class App extends Component {
         <div className="App-header" id="header">
         </div>
         <div className="contents-main">
-          <img src="header.jpg"/>
+          <img className="Img" src={Img} alt="Img"/>
         </div>
         <div>
           <Column/>
